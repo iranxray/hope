@@ -36,6 +36,14 @@
 
 ![image](https://user-images.githubusercontent.com/118040490/201583716-95b49100-cdb7-4ecf-a46b-7ff5569de491.png)
 
-۶. در این قسمت نیاز داریم تا از certificate هایی که برای پروتکل TLS ساخته‌ایم استفاده کنیم. اگر این certificate ها را ندارید، لطفا مستند ساخت TSL Certificate را دنبال کرده و به اینجا برگردید.
+۶. در این قسمت نیاز داریم تا از certificate هایی که برای پروتکل TLS ساخته‌ایم استفاده کنیم. اگر این certificate ها را ندارید، لطفا [مستند ساخت TSL Certificate](https://github.com/iranxray/hope/blob/main/create-tsl-certificate.md) را دنبال کرده، دامنه و آدرس فایل‌های کلیدهای رمزنگاری را یادداشت کرده و به اینجا برگردید.
 
-# ساخت کانفیگ Trojan
+در اینجا، از همان نام domain استفاده کنید که در مرحله ساخت certificate استفاده کردید. مطمئن شوید گزینه certificate file path انتخاب شده باشد. برای public key آدرس مربوط به فایل cert.pem را وارد کنید. برای Key آدرس مربوط به فایل private key را وارد نمایید. روش تهیه این فایل‌ها در [مستند ساخت TSL Certificate](https://github.com/iranxray/hope/blob/main/create-tsl-certificate.md) پیشتر شرح داده شده. 
+
+![image](https://user-images.githubusercontent.com/118040490/201596466-93e8f7cf-b15b-4bfd-a002-5d427efb9a1d.png)
+
+۷. دکمه Add را بزنید و تمام. خواهید که کانفیگ به موفقیت به فهرست اضافه شده و آماده استفاده می‌باشد.
+
+![image](https://user-images.githubusercontent.com/118040490/201597880-7654ba1e-792b-4e09-a26a-f28ab4ffaaca.png)
+
+نکته مهم، حتما مطمئن شوید که بعد از ساخت هر کانفیگُ، پورت مربوط به آن کانفیگ بر روی server باز بوده و آماده پذیرش ترافیک ورودی می‌باشد.
