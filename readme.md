@@ -6,10 +6,8 @@
 
 در قسمت‌های بعدی توضیحات به نسبت کاملی در مورد تکنولوژی فیلترینگ در ایران ارائه شده است اما اگه عجله دارید خلاصه‌اش می‌شود اینکه جمهوری اسلامی سیستم فیلترینگ چینی GFW را استفاده می‌کند. در مقابل، ما هم در ایران از روش‌هایی که گروه‌های مقاومت چینی ابداع کرده‌اند بهره می‌گیریم تا سیستم فیلترینگ را دور بزنیم. به لینک‌های زیر رجوع کنید تا نحوه نصب و راه‌اندازی تکنولوژی های عبور از فیلترینگ را بیاموزید.
 
-* [نصب Xray](https://github.com/iranxray/hope/blob/main/install-xui.md)
-* [راه اندازی Trojan](https://github.com/iranxray/hope/blob/main/create-trojan.md)
-* [راه اندازی VLESS](https://github.com/iranxray/hope/blob/main/create-vless.md)
-
+*  گام اول [نصب Xray](https://github.com/iranxray/hope/blob/main/install-xui.md) بر روی یک سیستم لینوکسی است.
+* گام دوم، [راه اندازی Trojan](https://github.com/iranxray/hope/blob/main/create-trojan.md) و یا [راه اندازی VLESS](https://github.com/iranxray/hope/blob/main/create-vless.md) می‌باشد.
 
 
 # دیواره آتش فیلترینگ
