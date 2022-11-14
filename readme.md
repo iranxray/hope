@@ -8,6 +8,9 @@
 
 *  گام اول [نصب Xray](https://github.com/iranxray/hope/blob/main/install-xui.md) بر روی یک سیستم لینوکسی است.
 * گام دوم، [راه اندازی Trojan](https://github.com/iranxray/hope/blob/main/create-trojan.md) و یا [راه اندازی VLESS](https://github.com/iranxray/hope/blob/main/create-vless.md) می‌باشد.
+* [نصب کلاینت بر روی اندروید]() گام سوم استفاده با
+* [نصب کلاینت بر روی آیفون]()
+* [نصب کلاینت بر روی ویندوز]()
 
 
 # دیواره آتش فیلترینگ
