@@ -16,4 +16,4 @@
 
 
 ## ساخت Trojan
-لطفا به [مقاله ساخت Trojan](https://github.com/iranxray/hope/blob/main/create-trojan.md) رجوع کنید
+لطفا به [مقاله ساخت Trojan](https://github.com/iranxray/hope/blob/main/create-trojan.md) رجوع کنید.
