@@ -1,5 +1,5 @@
 
-# ساخت کانفیگ VLESS + TCP + XTLS
+# ساخت کانفیگ Trojan + XTLS
 
 ۱. در صفحه Inbound Lists بر روی علامت + کلیک کنید.
 
