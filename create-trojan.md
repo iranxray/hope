@@ -1,5 +1,6 @@
 
 # ساخت کانفیگ Trojan + XTLS
+در صورت تمایل، برای یادگیری در مورد جزییات فنی این پروتکل به [مطلبی که در مورد Trojan](https://github.com/iranxray/hope#%D9%BE%D8%B1%D9%88%D8%AA%DA%A9%D9%84-trojan-%D8%A7%DB%8C%D9%85%D9%86-sunglasses) تهیه کرده‌ایم رجوع کنید.
 
 ۱. در صفحه Inbound Lists بر روی علامت + کلیک کنید.
 
