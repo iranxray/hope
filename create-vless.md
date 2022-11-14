@@ -1,5 +1,7 @@
 # ساخت کانفیگ VLESS + TCP + XTLS
 
+در صورت تمایل، برای یادگیری در مورد جزییات فنی این پروتکل به [مطلبی که در مورد VLESS](https://github.com/iranxray/hope#%D9%BE%D8%B1%D9%88%D8%AA%DA%A9%D9%84-vless-%D8%A7%DB%8C%D9%85%D9%86-sunglasses) تهیه کرده‌ایم رجوع کنید.
+
 ۱. بر روی علامت + کلیک کنید.
 
 ![image](https://user-images.githubusercontent.com/118040490/201569651-5ae49659-70f3-4a43-a4ce-5a7ed8f87df1.png)
