@@ -9,9 +9,14 @@
 ما شرکت‌های زیر را برای خرید server پیشنهاد می‌دهیم.
 
 ۱. شرکت Vultr
+
 ۲. شرکت Hetzner
+
 ۳. شرکت DigitalOcean
+
 ۴. پلتفرم Microsoft Azure
+
 ۵. پلتفرم AWS
+
 ۶. پلتفرم Google Cloud
 
