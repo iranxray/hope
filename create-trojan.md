@@ -47,4 +47,4 @@
 
 ![image](https://user-images.githubusercontent.com/118040490/201850439-541d423e-60d5-45f6-9105-e02fa6c0629f.png)
 
-۹. حالا که کانفیگ کپی شده، می‌توانید یاد بگیرید چطور به [اندروید](https://github.com/iranxray/hope/blob/main/install-android.md) و یا [آیفون](https://github.com/iranxray/hope/blob/main/install-iphone.md) می‌توانید این تنظیمات را اضافه کنید.
+۹. حالا که کانفیگ کپی شده، می‌توانید یاد بگیرید چطور به [اندروید](https://github.com/iranxray/hope/blob/main/install-android.md) و یا [آیفون](https://github.com/iranxray/hope/blob/main/install-iphone.md) این تنظیمات را اضافه کنید.
