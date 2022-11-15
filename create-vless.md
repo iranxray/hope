@@ -37,4 +37,15 @@
 
 ![image](https://user-images.githubusercontent.com/118040490/201597880-7654ba1e-792b-4e09-a26a-f28ab4ffaaca.png)
 
-نکته مهم، حتما مطمئن شوید که بعد از ساخت هر کانفیگُ، پورت مربوط به آن کانفیگ بر روی server باز بوده و آماده پذیرش ترافیک ورودی می‌باشد.
+
+نکته مهم، حتما مطمئن شوید که بعد از ساخت هر کانفیگ، پورت مربوط به آن کانفیگ بر روی server باز بوده و آماده پذیرش ترافیک ورودی می‌باشد. برای این موضوع به مستندات شرکتی که server شما را میزبانی می‌کند رجوع نمایید.
+
+۸. حالا که کانفیگ با موفقیت ساخته شده، نوبت به اشتراک‌گذاری کانفیگ با کاربر عزیز رسیده تا کمک‌ کنیم به اینترنت آزاد متصل شود. می‌توانید کانفیگ را به طریق زیر کپی نمایید.
+
+![image](https://user-images.githubusercontent.com/118040490/201850200-039e1f29-332e-4fa8-bb49-03cc4625fa47.png)
+
+![image](https://user-images.githubusercontent.com/118040490/201850330-6a910c59-5ff8-44ba-a77e-8dfff778d6bd.png)
+
+![image](https://user-images.githubusercontent.com/118040490/201850439-541d423e-60d5-45f6-9105-e02fa6c0629f.png)
+
+۹. حالا که کانفیگ کپی شده، می‌توانید یاد بگیرید چطور به [اندروید](https://github.com/iranxray/hope/blob/main/install-android.md) و یا [آیفون](https://github.com/iranxray/hope/blob/main/install-iphone.md) می‌توانید این تنظیمات را اضافه کنید
