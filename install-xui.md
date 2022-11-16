@@ -32,7 +32,7 @@ apt update && apt upgrade -y
 
 
 ```bash
-wget https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh
+wget https://raw.githubusercontent.com/alirezaac/x-ui/master/install.sh
 ```
 
 
