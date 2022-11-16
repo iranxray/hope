@@ -35,7 +35,7 @@ sudo apt-get install openssl
 
 
 ```bash
-openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -sha256 -days 365 -nodes
+openssl req -x509 -newkey rsa:4096 -keyout private.key -out cert.pem -sha256 -days 365 -nodes
 ```
 
 ۶. دستور قبلی، سوال‌هایی را از شما می‌پرسد. نیازی به پاسخ دادن هیچ کدام از سوال‌ها نیست مگر برای سوال Common Name که نام دامنه را از شما می‌پرسد.
