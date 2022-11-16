@@ -9,7 +9,7 @@
 ۳. اپلیکیشن Shadowlink را باز کنید و به ترتیب مراحل یک و دو را انجام دهید تا کانفیگ به برنامه اضافه شود.
 
 ![image](https://user-images.githubusercontent.com/118040490/201843706-b0f9faf7-4fe0-49fb-a003-f5db43c95490.png)
-![image](https://user-images.githubusercontent.com/118040490/201843874-818d1697-f74c-4355-ac27-a1213921ef97.png)
+![image](https://user-images.githubusercontent.com/118040490/202102955-ae5f0e7b-cdd0-4aae-afd0-62917a6d4269.png)
 ![image](https://user-images.githubusercontent.com/118040490/201843975-39e8a032-a8e7-4b7b-bf8a-1692f8007186.png)
 
 
