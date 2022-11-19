@@ -6,7 +6,7 @@
 
 ## گام صفر - نصب SSH
 
-پیش از هر کاری باید SSH را در Windows نصب کنید. SSH به ما امکان می‌دهد تا به کامپیوتری که کرایه می‌کنید متصل شویم. خیلی ساده است. [نحوه نصب SSH در Windows را از اینجا]() می‌توانید ببینید. 
+پیش از هر کاری باید SSH را در Windows نصب کنید. SSH به ما امکان می‌دهد تا به کامپیوتری که کرایه می‌کنید متصل شویم. خیلی ساده است. [نحوه نصب SSH در Windows را از اینجا](https://github.com/iranxray/hope/blob/main/install-ssh-windows.md) می‌توانید ببینید. 
 
 
 ## گام اول
@@ -83,7 +83,7 @@
 
 ![image](https://user-images.githubusercontent.com/118040490/202822686-e080ccc7-aa1c-40ef-a6e5-4cb6c9e91df5.png)
 
-* حالا با داشتن این‌ها می‌توانیم به server متصل شویم. پیش‌فرض ما اینجا این هست که شما [SSH را در Windows 10 و یا Windows 11‌]() نصب کرده اید. دکمه Start را بزنید و تایپ کنید cmd و Command Promt را انتخاب کنید.
+* حالا با داشتن این‌ها می‌توانیم به server متصل شویم. پیش‌فرض ما اینجا این هست که شما [SSH را در Windows 10 و یا Windows 11‌](https://github.com/iranxray/hope/blob/main/install-ssh-windows.md) نصب کرده اید. دکمه Start را بزنید و تایپ کنید cmd و Command Promt را انتخاب کنید.
 
 ![image](https://user-images.githubusercontent.com/118040490/202823343-c219d2b3-bed2-491f-90da-aa5f42eb609f.png)
 
