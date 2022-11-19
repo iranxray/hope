@@ -79,7 +79,7 @@
 
 ![image](https://user-images.githubusercontent.com/118040490/202822559-969cb093-3c0f-4a83-a049-990e2060f70a.png)
 
-در صفحه بعد، نیاز آدرس IP‌ و Username‌ و Password را مشاهده می‌کنید.
+در صفحه بعد، آدرس IP‌ و Username‌ و Password را مشاهده می‌کنید. از این‌ها در گام‌های بعدی استفاده می‌کنیم.
 
 ![image](https://user-images.githubusercontent.com/118040490/202822686-e080ccc7-aa1c-40ef-a6e5-4cb6c9e91df5.png)
 
