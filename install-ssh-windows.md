@@ -17,3 +17,5 @@
 * منتظر بمانید تا فرایند نصب تمام شود.
 
 ![image](https://user-images.githubusercontent.com/118040490/202825255-d8bed77b-118a-4c94-bbc2-3145299f2b28.png)
+
+* وقتی نصب تمام شد، سیستم خود را restart‌ کنید. حالا می‌توانید با مراجعه به [مقاله خرید یک سرور](https://github.com/iranxray/hope/blob/main/buy-server.md) باقی مراحل را طی کنید.
