@@ -8,9 +8,10 @@
 
 در قسمت‌های بعدی توضیحات به نسبت کاملی در مورد تکنولوژی فیلترینگ در ایران ارائه شده است اما اگه عجله دارید خلاصه‌اش می‌شود اینکه جمهوری اسلامی سیستم فیلترینگ چینی GFW را استفاده می‌کند. در مقابل، ما هم در ایران از روش‌هایی که گروه‌های مقاومت چینی ابداع کرده‌اند بهره می‌گیریم تا سیستم فیلترینگ را دور بزنیم. به لینک‌های زیر رجوع کنید تا نحوه نصب و راه‌اندازی تکنولوژی های عبور از فیلترینگ را بیاموزید.
 
-*  گام اول [نصب Xray](https://github.com/iranxray/hope/blob/main/install-xui.md) بر روی یک سیستم لینوکسی است.
-* گام دوم، [راه اندازی Trojan](https://github.com/iranxray/hope/blob/main/create-trojan.md) و یا [راه اندازی VLESS](https://github.com/iranxray/hope/blob/main/create-vless.md) می‌باشد.
-* گام سوم، [نصب کلاینت بر روی اندروید](https://github.com/iranxray/hope/blob/main/install-android.md) و یا [نصب کلاینت بر روی آیفون](https://github.com/iranxray/hope/blob/main/install-iphone.md) و یا [نصب کلاینت بر روی ویندوز]() می‌باشد.  
+* گام اول خرید یک server‌ لینوکسی می‌باشد.
+*  گام دوم [نصب Xray](https://github.com/iranxray/hope/blob/main/install-xui.md) بر روی یک سیستم لینوکسی است.
+* گام سوم، [راه اندازی Trojan](https://github.com/iranxray/hope/blob/main/create-trojan.md) و یا [راه اندازی VLESS](https://github.com/iranxray/hope/blob/main/create-vless.md) می‌باشد.
+* گام چهارم، [نصب کلاینت بر روی اندروید](https://github.com/iranxray/hope/blob/main/install-android.md) و یا [نصب کلاینت بر روی آیفون](https://github.com/iranxray/hope/blob/main/install-iphone.md) و یا [نصب کلاینت بر روی ویندوز]() می‌باشد.  
 
 
 # دیواره آتش فیلترینگ
