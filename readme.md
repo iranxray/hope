@@ -26,7 +26,7 @@
 * [تحلیل عمقی از ساختار GFW، تهیه شده در سال ۲۰۱۶](https://www.cs.tufts.edu/comp/116/archive/fall2016/ctang.pdf)
 * [کشف گروه تحقیقی دانشگاه Maryland در مورد چگونگی فیلتر کردن ترافیک HTTPS](https://therecord.media/academics-discover-hidden-layer-in-chinas-great-firewall/)
 * [مقاله تحقیقی دانشگاه تورنتو در مورد تغییرات شبکه GFW](https://therecord.media/academics-discover-hidden-layer-in-chinas-great-firewall/)
-* [تحقیقی که مشخص می‌کند GFW ترافیک TSL 1.3 را بدون استثنا فیلتر می‌کند](https://gfw.report/blog/gfw_esni_blocking/en/)
+* [تحقیقی که مشخص می‌کند GFW ترافیک TLS 1.3 را بدون استثنا فیلتر می‌کند](https://gfw.report/blog/gfw_esni_blocking/en/)
 
 ## مکانیزم فیلترینگ در GFW
 
