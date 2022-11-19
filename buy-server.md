@@ -8,7 +8,7 @@
 
 ما شرکت‌های زیر را برای خرید server پیشنهاد می‌دهیم.
 
-۱. شرکت Vultr
+۱. شرکت Vultr - مقاله ما در مورد [خرید سرور ارزان از Vultr](https://github.com/iranxray/hope/blob/main/buy-server-vultr.md) را اینجا ببینید.
 
 ۲. شرکت Hetzner
 
