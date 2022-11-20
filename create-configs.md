@@ -11,9 +11,13 @@
 :star:
 توجه کنید که هر کانفیگ معادل با یک کاربر می‌باشد. محدودیتی بر روی تعداد کاربرانی که به طور همزمان می‌توانند از یک کانفیگ استفاده کنند وجود ندارد اما می‌توانید مشخص کنید که از هر کانفیگ چه میزان داده جا به جا شود. مثلا می‌توانید مشخص کنید که مجموع دانلود و آپلود یک کانفیگ مشخص برابر با 20Gb باشد. 
 
+## ساخت Trojan (پیشنهاد ما)
+لطفا به [مقاله ساخت Trojan](https://github.com/iranxray/hope/blob/main/create-trojan.md) رجوع کنید.
+
+
 ## ساخت VLESS
 لطفا به [مقاله ساخت VLESS](https://github.com/iranxray/hope/blob/main/create-vless.md) رجوع کنید.
 
 
-## ساخت Trojan
-لطفا به [مقاله ساخت Trojan](https://github.com/iranxray/hope/blob/main/create-trojan.md) رجوع کنید.
+## ساخت VMESS
+به دلایل ضعف‌های امنیتی VMESS، ما نحوه ساخت VMESS را آموزش نمی‌دهیم. برای اطلاع از جزییات امنیتی VMESS می‌توانید به [مقاله ما](https://github.com/iranxray/hope#%D9%BE%D8%B1%D9%88%D8%AA%DA%A9%D9%84-vmess-%D8%BA%DB%8C%D8%B1-%D8%A7%DB%8C%D9%85%D9%86-skull) رجوع کنید. 
