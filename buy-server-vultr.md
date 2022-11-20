@@ -76,7 +76,7 @@
 
 * اول باید آدرس IP و نام کاربری و رمز عبور سیستم را پیدا کنیم. این‌ها به طور خودکار توسط vultr برای ما ساخته شده اند. ابتدا، بر روی Server Details کلیک کنید.
 
-![image](https://user-images.githubusercontent.com/118040490/202822559-969cb093-3c0f-4a83-a049-990e2060f70a.png)
+![image](https://user-images.githubusercontent.com/118040490/202893743-8e781140-a6ed-4dc7-913e-8747b64c982e.png)
 
 در صفحه بعد، آدرس IP‌ و Username‌ و Password را مشاهده می‌کنید. از این‌ها در گام‌های بعدی استفاده می‌کنیم.
 
