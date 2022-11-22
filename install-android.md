@@ -15,7 +15,7 @@
 ![image](https://user-images.githubusercontent.com/118040490/201839298-ce728e50-611a-4b7a-9103-3fb89a7f961e.png)
 
 
-۴. این مرحله برای همه لازم نیست. می‌توانید مستقیم به مرحله بعدی بروید. اگر TSL Certificate های سرور به صورت [Self-Signed](https://github.com/iranxray/hope/blob/main/create-tsl-certificate.md) تولید شده باشند، باید کانفیگ اضافه شده را یک ویرایش کوچولو بکنیم. باید مقدار allowInsecure را از false به true‌ تغییر دهیم. صفحه تنظیمات را به آخر اسکرول کنید تا گزینه allowInsecure را پیدا کنید.
+۴. این مرحله برای همه لازم نیست. می‌توانید مستقیم به مرحله بعدی بروید. اگر TLS Certificate های سرور به صورت [Self-Signed](https://github.com/iranxray/hope/blob/main/create-tsl-certificate.md) تولید شده باشند، باید کانفیگ اضافه شده را یک ویرایش کوچولو بکنیم. باید مقدار allowInsecure را از false به true‌ تغییر دهیم. صفحه تنظیمات را به آخر اسکرول کنید تا گزینه allowInsecure را پیدا کنید.
 
 ![image](https://user-images.githubusercontent.com/118040490/201840108-836be851-90fc-476e-b39d-36b87d6e2e6f.png)
 ![image](https://user-images.githubusercontent.com/118040490/201840201-c6e04779-d308-4031-8dd0-3d5db071a2da.png)
