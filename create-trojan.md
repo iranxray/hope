@@ -27,9 +27,9 @@
 
 ![image](https://user-images.githubusercontent.com/118040490/201599616-96f49d37-f06d-499e-bfb2-75d9688cfa33.png)
 
-۶. در این قسمت نیاز داریم تا از certificate هایی که برای پروتکل TLS ساخته‌ایم استفاده کنیم. اگر این certificate ها را ندارید، لطفا [مستند ساخت TSL Certificate](https://github.com/iranxray/hope/blob/main/create-tsl-certificate.md) را دنبال کرده، دامنه و آدرس فایل‌های کلیدهای رمزنگاری را یادداشت کرده و به اینجا برگردید.
+۶. در این قسمت نیاز داریم تا از certificate هایی که برای پروتکل TLS ساخته‌ایم استفاده کنیم. اگر این certificate ها را ندارید، لطفا [مستند ساخت TLS Certificate](https://github.com/iranxray/hope/blob/main/create-tsl-certificate.md) را دنبال کرده، دامنه و آدرس فایل‌های کلیدهای رمزنگاری را یادداشت کرده و به اینجا برگردید.
 
-در اینجا، از همان نام domain استفاده کنید که در مرحله ساخت certificate استفاده کردید. مطمئن شوید گزینه certificate file path انتخاب شده باشد. برای public key آدرس مربوط به فایل cert.pem را وارد کنید. برای Key آدرس مربوط به فایل private key را وارد نمایید. روش تهیه این فایل‌ها در [مستند ساخت TSL Certificate](https://github.com/iranxray/hope/blob/main/create-tsl-certificate.md) پیشتر شرح داده شده. 
+در اینجا، از همان نام domain استفاده کنید که در مرحله ساخت certificate استفاده کردید. مطمئن شوید گزینه certificate file path انتخاب شده باشد. برای public key آدرس مربوط به فایل cert.pem را وارد کنید. برای Key آدرس مربوط به فایل private key را وارد نمایید. روش تهیه این فایل‌ها در [مستند ساخت TLS Certificate](https://github.com/iranxray/hope/blob/main/create-tsl-certificate.md) پیشتر شرح داده شده. 
 
 ![image](https://user-images.githubusercontent.com/118040490/201599862-aad2e081-b92f-42be-913f-3914066b7715.png)
 
