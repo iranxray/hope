@@ -1,24 +1,24 @@
-# نصب Shadowlink بر روی آیفون
+# نصب NapsternetV بر روی آیفون
 
-اپلیکیشن Shadowlink به ما کمک می‌کند تا بتوانیم به لطف کانفیگ‌هایی که توسط XRay و یا V2Ray ساخته‌ایم فیلترینگ را دور بزنیم.
+اپلیکیشن  NapsternetV به ما کمک می‌کند تا بتوانیم به لطف کانفیگ‌هایی که توسط XRay و یا V2Ray ساخته‌ایم فیلترینگ را دور بزنیم.
 
-۱. ابتدا باید [اپلیکیشن](https://apps.apple.com/us/app/shadowlink-shadowsocks-vpn/id1439686518) را بر روی گوشی خود نصب کنید. 
+۱. ابتدا باید [اپلیکیشن](https://apps.apple.com/us/app/napsternetv/id1629465476) را بر روی گوشی خود نصب کنید. 
 
 ۲. بعد از نصب، کانفیگی را که دریافت کرده‌اید را کپی کنید.
 
-۳. اپلیکیشن Shadowlink را باز کنید و به ترتیب مراحل یک و دو را انجام دهید تا کانفیگ به برنامه اضافه شود.
-
-![image](https://user-images.githubusercontent.com/118040490/201843706-b0f9faf7-4fe0-49fb-a003-f5db43c95490.png)
-![image](https://user-images.githubusercontent.com/118040490/202102955-ae5f0e7b-cdd0-4aae-afd0-62917a6d4269.png)
-![image](https://user-images.githubusercontent.com/118040490/201843975-39e8a032-a8e7-4b7b-bf8a-1692f8007186.png)
+۳. اپلیکیشن NapsternetV را باز کنید و به ترتیب مراحل زیر را طی کنید.
 
 
-۵. حالا برای اتصال به اینترنت آزاد آماده ایم، دکمه زیر را فشار دهید.
+![image](https://user-images.githubusercontent.com/118040490/203471971-93a491a2-baf6-43db-b1a2-cc03ceb4b848.png)
+![image](https://user-images.githubusercontent.com/118040490/203472122-3a93c76a-e3f9-473b-95e0-5a1ca8d5018f.png)
+![image](https://user-images.githubusercontent.com/118040490/203472162-98fb4f17-c926-4949-89e4-0c9ec386266c.png)
+![image](https://user-images.githubusercontent.com/118040490/203472239-53c4835b-0ff8-4143-b411-8b6ea0c5fd68.png)
+![image](https://user-images.githubusercontent.com/118040490/203472289-00be72d6-ecd9-4149-9ea2-c8a62f304807.png)
+![image](https://user-images.githubusercontent.com/118040490/203472331-daa46ab9-c25d-41d0-84a6-7318c8e6996b.png)
+![image](https://user-images.githubusercontent.com/118040490/203472512-c5e12b83-780f-4e97-829e-d769016d106e.png)
+![image](https://user-images.githubusercontent.com/118040490/203472557-6d8922d9-89fb-4238-a36d-959d5e77c127.png)
+![image](https://user-images.githubusercontent.com/118040490/203472603-861b93fb-971c-4867-a2ed-eebd10a00931.png)
+![image](https://user-images.githubusercontent.com/118040490/203472644-d54fa779-3e39-42c0-8df3-350960ce4637.png)
+![image](https://user-images.githubusercontent.com/118040490/203472670-d3417774-ebb1-4ddc-91ea-4921630c0c21.png)
 
-![image](https://user-images.githubusercontent.com/118040490/201845260-91f606e9-6c0e-4b67-aa30-33fe82ec29da.png)
-
-
-⭐ به نظر می‌رسد که متاسفانه ShadowLink با کانفیگ‌هایی که توسط Certificate های Self-Signed تولید شده‌اند نمی‌تواند کار کند. در صورتی که این فرض اشتباه است لطفا ما را مطلع کنید.
-
-
-⭐ به نظر می‌رسد که متاسفانه ShadowLink پروتکل VLESS را پشتیبانی نمی‌کند. برای استفاده از VLESS در آیفون می‌توانید [اپلیکیشن NapsternetV](https://apps.apple.com/us/app/napsternetv/id1629465476) را نصب کنید.
+۵. تمام. شما به اینترنت آزاد متصل شده‌اید.
