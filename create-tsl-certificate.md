@@ -36,11 +36,11 @@ sudo apt-get install openssl
 ```
 
 ## گام چهارم
-با دستور زیر، کلیدهای رمزنگاری را بر روی سیستم تعریف می‌کنیم. دستور زیر دو فایل به نام private.key و cert.pem بر روی سرور شما ایجاد می‌کند.
+با دستور زیر، کلیدهای رمزنگاری را بر روی سیستم تعریف می‌کنیم. دستور زیر دو فایل به نام `privkey.pem` و `fullchain.pem` بر روی سرور شما ایجاد می‌کند.
 
 
 ```bash
-openssl req -x509 -newkey rsa:4096 -keyout private.key -out cert.pem -sha256 -days 365 -nodes
+openssl req -x509 -newkey rsa:4096 -keyout privkey.pem -out fullchain.pem -sha256 -days 365 -nodes
 ```
 
 ## گام پنجم
@@ -54,8 +54,8 @@ openssl req -x509 -newkey rsa:4096 -keyout private.key -out cert.pem -sha256 -da
 با دستور زیر، به X-UI دسترسی خواهیم داد که فایل‌های ساخته شده برای رمزنگاری استفاده کند.
 
 ```bash
-chmod ugo+rwx cert.pem
-chmod ugo+rwx private.key
+chmod ugo+rwx fullchain.pem
+chmod ugo+rwx privkey.pem
 ```
 
 
@@ -142,7 +142,7 @@ sudo certbot certonly --standalone --preferred-challenges http --agree-tos --ema
 
 ![image](https://user-images.githubusercontent.com/118040490/203455773-bd35cb28-49ec-436b-86e3-0be91803eb41.png)
 
-با توجه به عکس پایین، فقط یادتان باشد که آدرس فایل `fullchain.pem` را در باکس اول و آدرس `privatekey.pem` را در باکس دوم می‌گذاریم.
+با توجه به عکس پایین، فقط یادتان باشد که آدرس فایل `fullchain.pem` را در باکس اول و آدرس `privkey.pem` را در باکس دوم می‌گذاریم.
 
 ![image](https://user-images.githubusercontent.com/118040490/203456520-98ff4636-0690-4916-8ecf-5b631012a921.png)
 
