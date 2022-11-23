@@ -4,6 +4,15 @@
 
 در اینجا ما نحوه خرید یک سرویس حداقلی را از vultr آموزش می‌دهیم که بتواند بین ۵۰ تا ۱۰۰ نفر را سرویس دهد. هزینه سرویس ماهانه کمتر از ۱۰ دلار آمریکا خواهد بود.
 
+## ویدئو آموزشی
+اگر دنبال کردن آموزش از طریق ویدئو برای شما راحت‌تر هست، توصیه می‌کنیم حتما ویدئو زیر را ببینید که به زبان راحت و شیوا تمام مراحل ریز را توضیح می‌دهد.
+
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=E2rv9WcIWR4
+" target="_blank"><img src="https://user-images.githubusercontent.com/118040490/203487223-397af049-3c4a-44f9-9d6b-89259ad0d871.png" 
+alt="IMAGE ALT TEXT HERE" width="600" height="320" border="10" /></a>
+
+
 ## گام صفر - نصب SSH
 
 پیش از هر کاری باید SSH را در Windows نصب کنید. SSH به ما امکان می‌دهد تا به کامپیوتری که کرایه می‌کنید متصل شویم. خیلی ساده است. [نحوه نصب SSH در Windows را از اینجا](https://github.com/iranxray/hope/blob/main/install-ssh-windows.md) می‌توانید ببینید. 
