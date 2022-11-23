@@ -11,7 +11,32 @@
 * گام اول [خرید یک server‌ لینوکسی](https://github.com/iranxray/hope/blob/main/buy-server.md) می‌باشد. در مقاله [خرید از Vultr](https://github.com/iranxray/hope/blob/main/buy-server-vultr.md) توضیح داده‌ایم که چطور با ده دلار می‌توانیم سرور مناسب را خریداری کنیم. 
 *  گام دوم [نصب Xray](https://github.com/iranxray/hope/blob/main/install-xui.md) بر روی یک سیستم لینوکسی است.
 * گام سوم، [راه اندازی Trojan](https://github.com/iranxray/hope/blob/main/create-trojan.md) و یا [راه اندازی VLESS](https://github.com/iranxray/hope/blob/main/create-vless.md) می‌باشد. ما توصیه می‌کنیم که از Trojan استفاده کنید.
-* گام چهارم، [نصب کلاینت بر روی اندروید](https://github.com/iranxray/hope/blob/main/install-android.md) و یا [نصب کلاینت بر روی آیفون](https://github.com/iranxray/hope/blob/main/install-iphone.md) و یا [نصب کلاینت بر روی ویندوز](https://github.com/iranxray/hope/blob/main/install-windows.md) می‌باشد.  
+* گام چهارم، [نصب کلاینت بر روی اندروید](https://github.com/iranxray/hope/blob/main/install-android.md) و یا [نصب کلاینت بر روی آیفون](https://github.com/iranxray/hope/blob/main/install-iphone.md) و یا [نصب کلاینت بر روی ویندوز](https://github.com/iranxray/hope/blob/main/install-windows.md) می‌باشد. 
+
+# آموزش ویدئویی
+
+این مجموعه ویدئوی آموزشی هم به زبان بسیار ساده مراحل خرید سرور، نصب XRay و راه اندازی Trojan رو توضیح میده. از سازنده ویدئو صمیمانه تشکر می‌کنیم که فیلم‌ها رو در اختیار ما قرار دادند.
+
+## ویدئو اول - تهیه Server
+
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=E2rv9WcIWR4
+" target="_blank"><img src="https://user-images.githubusercontent.com/118040490/203487223-397af049-3c4a-44f9-9d6b-89259ad0d871.png" 
+alt="IMAGE ALT TEXT HERE" width="600" height="320" border="10" /></a>
+
+## ویدئو دوم - نصب XRay
+
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=dx53eIC9a4M
+" target="_blank"><img src="https://user-images.githubusercontent.com/118040490/203488392-cdb138cf-715b-4a3c-8bc2-8a6b9bae6cce.png" 
+alt="IMAGE ALT TEXT HERE" width="600" height="320" border="10" /></a>
+
+## ویدئو سوم - راه‌اندازی Trojan‌ و استفاده بر روی اندروید
+
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=bypxnL7ycuc
+" target="_blank"><img src="https://user-images.githubusercontent.com/118040490/203488623-3dac76fd-0dc7-4fa1-af87-009eb03d45eb.png" 
+alt="IMAGE ALT TEXT HERE" width="600" height="320" border="10" /></a>
 
 
 # دیواره آتش فیلترینگ
