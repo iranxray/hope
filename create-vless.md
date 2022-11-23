@@ -28,10 +28,10 @@
 ۵. در این مرحله، مشخص می‌کنید که از این کانفیگ در مجموع چه میزان حجم از داده دانلود و آپلود می‌توانیم داشته باشیم. مثلا اگر عدد 20 را مشخص کنیم، آنگاه کاربران این کانفیگ در مجموع به اندازه 20Gb می‌توانند از سرور ما داده دانلود و یا آپلود کنند. به محض اینکه داده مصرفی تمام شود، این کانفیگ به صورت خودکار غیرفعال خواهد شد. اینجا ما عدد ۳۰ را مشخص می‌کنیم.
 
 ![image](https://user-images.githubusercontent.com/118040490/201583716-95b49100-cdb7-4ecf-a46b-7ff5569de491.png)
-
+ 
 ۶. در این قسمت نیاز داریم تا از certificate هایی که برای پروتکل TLS ساخته‌ایم استفاده کنیم. اگر این certificate ها را ندارید، لطفا [مستند ساخت TLS Certificate](https://github.com/iranxray/hope/blob/main/create-tsl-certificate.md) را دنبال کرده، دامنه و آدرس فایل‌های کلیدهای رمزنگاری را یادداشت کرده و به اینجا برگردید.
 
-در اینجا، از همان نام domain استفاده کنید که در مرحله ساخت certificate استفاده کردید. مطمئن شوید گزینه certificate file path انتخاب شده باشد. برای public key آدرس مربوط به فایل cert.pem را وارد کنید. برای Key آدرس مربوط به فایل private key را وارد نمایید. روش تهیه این فایل‌ها در [مستند ساخت TLS Certificate](https://github.com/iranxray/hope/blob/main/create-tsl-certificate.md) پیشتر شرح داده شده. 
+در اینجا، از همان نام domain استفاده کنید که در مرحله ساخت certificate استفاده کردید. مطمئن شوید گزینه certificate file path انتخاب شده باشد. برای public key آدرس مربوط به فایل fullchain.pem را وارد کنید. برای Key آدرس مربوط به فایل privkey.pem را وارد نمایید. روش تهیه این فایل‌ها در [مستند ساخت TLS Certificate](https://github.com/iranxray/hope/blob/main/create-tsl-certificate.md) شرح داده شده بود. 
 
 ![image](https://user-images.githubusercontent.com/118040490/201596466-93e8f7cf-b15b-4bfd-a002-5d427efb9a1d.png)
 
