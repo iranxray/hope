@@ -142,6 +142,6 @@ sudo certbot certonly --standalone --preferred-challenges http --agree-tos --ema
 
 ![image](https://user-images.githubusercontent.com/118040490/203457457-0bb9bc53-855c-4d13-a2f4-292977781ef9.png)
 
-تمام. از آدرس دامنه استفاده کنید 
+تمام. از آدرس دامنه استفاده کنید تا به پورتال بروید و ادامه را از [مقاله ساخت کانفیگ](https://github.com/iranxray/hope/blob/main/create-configs.md) دنبال کنید. 
 
 
