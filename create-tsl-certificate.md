@@ -65,14 +65,14 @@ chmod ugo+rwx privkey.pem
 
 
 ```bash
-echo "$(pwd)/cert.pem"
+echo "$(pwd)/fullchain.pem"
 ```
 
 و برای گرفتن آدرس کامل کلید خصوصی دستور زیر را وارد کنید. نتیجه را یادداشت نمایید چون باید این آدرس را باید در X-UI وارد نمایید
 
 
 ```bash
-echo "$(pwd)/private.key"
+echo "$(pwd)/privkey.key"
 ```
 
 ## گام هشتم
