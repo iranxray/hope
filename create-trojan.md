@@ -1,6 +1,7 @@
 
 # ساخت کانفیگ Trojan + XTLS
-در صورت تمایل، برای یادگیری در مورد جزییات فنی این پروتکل به [مطلبی که در مورد Trojan](https://github.com/iranxray/hope#%D9%BE%D8%B1%D9%88%D8%AA%DA%A9%D9%84-trojan-%D8%A7%DB%8C%D9%85%D9%86-sunglasses) تهیه کرده‌ایم رجوع کنید.
+در صورت تمایل، برای یادگیری در مورد جزییات فنی این پروتکل به [مطلبی که در مورد Trojan](https://github.com/iranxray/hope#%D9%BE%D8%B1%D9%88%D8%AA%DA%A9%D9%84-trojan-%D8%A7%DB%8C%D9%85%D9%86-sunglasses) تهیه کرده‌ایم رجوع کنید
+
 
 ۱. در صفحه Inbound Lists بر روی علامت + کلیک کنید.
 
@@ -32,6 +33,14 @@
 در اینجا، از همان نام domain استفاده کنید که در مرحله ساخت certificate استفاده کردید. مطمئن شوید گزینه certificate file path انتخاب شده باشد. برای public key آدرس مربوط به فایل fullchain.pem را وارد کنید. برای Key آدرس مربوط به فایل privkey.pem را وارد نمایید. روش تهیه این فایل‌ها در [مستند ساخت TLS Certificate](https://github.com/iranxray/hope/blob/main/create-tsl-certificate.md) شرح داده شده بود. 
 
 ![image](https://user-images.githubusercontent.com/118040490/201599862-aad2e081-b92f-42be-913f-3914066b7715.png)
+
+
+
+:star:
+نکته‌ خیلی مهم: اگر از certificate معتبر و domain استفاده می‌‌کنید، مطمئن باشید که نوار آدرس در مرورگر شما به صورت http://IP:port نمی‌باشد. شما باید از آدرس domain استفاده کنید. این موضوع در [مقاله ساخت certificate معتبر](https://github.com/iranxray/hope/blob/main/create-tsl-certificate.md#%DA%AF%D8%A7%D9%85-%D9%87%D9%81%D8%AA%D9%85-1) توضیح داده شده بود.
+
+![image](https://user-images.githubusercontent.com/118040490/203471327-0557d006-325b-435a-856d-c6a5ef1f57aa.png)
+![image](https://user-images.githubusercontent.com/118040490/203471267-5f3bb039-5864-4614-9e12-69768fcf57a4.png)
 
 ۷. دکمه Add را بزنید و تمام. خواهید که کانفیگ به موفقیت به فهرست اضافه شده و آماده استفاده می‌باشد.
 
