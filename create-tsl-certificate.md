@@ -72,7 +72,7 @@ echo "$(pwd)/fullchain.pem"
 
 
 ```bash
-echo "$(pwd)/privkey.key"
+echo "$(pwd)/privkey.pem"
 ```
 
 ## گام هشتم
