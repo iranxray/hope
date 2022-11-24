@@ -148,6 +148,10 @@ sudo certbot certonly --standalone --preferred-challenges http --agree-tos --ema
 
 ![image](https://user-images.githubusercontent.com/118040490/203457457-0bb9bc53-855c-4d13-a2f4-292977781ef9.png)
 
+اگر به ایراد دسترسی به فایل‌های سرتیفیکیت برخوردید (موارد خیلی نادر) یه سر به این [مقاله](https://github.com/v2fly/fhs-install-v2ray/wiki/Insufficient-permissions-when-using-certificates) بزنید تا مشکل دسترسی رو حل کنید. ایرادهای دسترسی به سرتیفیکیت معمولا با این پیغام ظاهر میشه (که البته ممکنه دلایل دیگه هم داشته باشه:
+
+> Fail to detect internet connection io read/write on closed pipe
+ 
 تمام. از آدرس دامنه استفاده کنید تا به پورتال بروید و ادامه را از [مقاله ساخت کانفیگ](https://github.com/iranxray/hope/blob/main/create-configs.md) دنبال کنید. 
 
 
