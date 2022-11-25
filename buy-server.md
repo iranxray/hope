@@ -10,13 +10,15 @@
 
 ۱. شرکت Vultr - مقاله ما در مورد [خرید سرور ارزان از Vultr](https://github.com/iranxray/hope/blob/main/buy-server-vultr.md) را اینجا ببینید.
 
-۲. شرکت Hetzner
+۲. شرکت [Hetzner](https://www.hetzner.com)
 
-۳. شرکت DigitalOcean
+۳. شرکت [Ovh](https://www.ovhcloud.com) 
 
-۴. پلتفرم Microsoft Azure
+۳. شرکت [DigitalOcean](https://www.digitalocean.com)
 
-۵. پلتفرم AWS
+۴. پلتفرم [Microsoft Azure](https://ms.portal.azure.com)
+
+۵. پلتفرم [AWS]()
 
 ۶. پلتفرم Google Cloud - گزارش‌ّ‌هایی دریافت کردیم که سرور‌های Google Cloud از داخل ایران قابل دسترس نیستند. احتمالا به خاطر تحریم.
 
