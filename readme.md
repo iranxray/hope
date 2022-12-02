@@ -13,6 +13,12 @@
 * گام سوم، [راه اندازی Trojan](https://github.com/iranxray/hope/blob/main/create-trojan.md) و یا [راه اندازی VLESS](https://github.com/iranxray/hope/blob/main/create-vless.md) است. ما توصیه می‌کنیم که از Trojan استفاده کنید.
 * گام چهارم، [نصب کلاینت بر روی اندروید](https://github.com/iranxray/hope/blob/main/install-android.md) و یا [نصب کلاینت بر روی آیفون](https://github.com/iranxray/hope/blob/main/install-iphone.md) و یا [نصب کلاینت بر روی ویندوز](https://github.com/iranxray/hope/blob/main/install-windows.md) می‌باشد. 
 
+# تلگرام
+برای اینکه محیط تعاملی بهتری در کنار هم داشته باشیم، در تلگرام هم حضور داریم.
+
+* [کانال تلگرام](https://t.me/irxray) برای اطلاع‌رسانی‌های گروه امید
+* [گروه تلگرام](https://t.me/irxraycommunity) برای بحث و تبادل تجربه در زمینه عبور از فیلترینگ
+
 # آموزش ویدئویی
 
 اگر دنبال کردن ویدئو برای شما راحت‌تر از متن هست، این مجموعه ویدئوی آموزشی دقیقا چیزی است که به آن نیاز دارید و به زبان بسیار ساده مراحل خرید سرور، نصب XRay و راه اندازی Trojan را توضیح می‌دهد. از سازنده ویدئو صمیمانه تشکر می‌کنیم که فیلم‌ها را در اختیار ما قرار دادند. 
@@ -109,12 +115,10 @@ https://github.com/XTLS/Xray-examples).
 در این لحظه پروتکل VLESS به همراه XTLS و بر روی TCP یکی از روش‌های کارا برای دور زدن GFW در ایران محسوب می‌شود. می‌توانید به [مقاله ما برای راه‌اندازی VLESS](https://github.com/iranxray/hope/blob/main/create-configs.md) امن رجوع کنید.
 
 :star:
-
 برخلاف VMESS، در این پروتکل رمزنگاری بر روی داده انجام نمی‌شود. پس حتما برای آنکه از امنیت کاربران‌تان مطمئن شوید باید ترافیک VLESS را بر روی بستر XTLS‌ عبور دهید.
 
 
 :star:
-
 یک نکته جالب دیگر در مورد VLESS این است که می‌توانید آن را بر روی پورت 443 میزبانی کنید. این به شما اجازه می‌دهد که برای پنهان سازی بیشتر از GFW یک وب سایت عادی بر روی پورت 443 بالا بیاورید. وقتی کاربر با مرورگر به آدرس شما می‌رود، یک وب‌سایت مجاز می‌بیند. اما در پشت پرده، کاربران می‌توانند از این پورت به عنوان دری پنهان استفاده کنند. [این تکنیک در این مقاله](https://henrywithu.com/coexistence-of-web-applications-and-vless-tcp-xtls/
 ) توضیح داده شده است.
 
@@ -129,14 +133,12 @@ https://github.com/XTLS/Xray-examples).
 در سال ۲۰۱۷، [پروتکل Trojan](https://github.com/trojan-gfw/trojan) توسعه داده شد و تا امروز هم در کنار VLESS روش بسیار موثر دیگری برای دور زدن GFW می‌باشد. پروتکل Trojan ترافیک داده عبوری را به شکل ترافیک HTTPS مجاز درمی‌آورد تا مکانیزم Deep Packet Inspection در GFW داده را به عنوان ترافیک مجاز در نظر بگیرد. مطابق بر این پروتکل، در آغاز TLS Handshake به صورت کامل انجام می‌گیرد تا GFW تصور کند که ترافیک عبور HTTPS‌ مجاز می‌باشد. به طور خلاصه، عملکرد یک Trojan Server از نظر ناظر بیرونی کاملا شبیه به یک Web Server عادی به نظر می‌رسد و همین کمک می‌کند که GFW به Server شما مشکوک نشود. این پروتکل هر دو لایه انتقال TCP و UDP رو پشتیبانی می‌کند. می‌توانید به [مقاله ما برای راه‌اندازه Trojan](https://github.com/iranxray/hope/blob/main/create-trojan.md) رجوع کنید. 
 
 :star:
-
 لینک‌های مفید:
 * [پروژه Trojan در GitHub](https://github.com/trojan-gfw/trojan)
 * [نخستین Issue بر روی GitHub پروژه که دلایل تولد Trojan را توضیح می‌دهد](https://github.com/trojan-gfw/trojan/issues/14)
 * [تشریح پروتکل](https://trojan-gfw.github.io/trojan/protocol.html)
 
 :star:
-
 [پروژه‌ دیگری به نام Trojan-Go](https://github.com/p4gefau1t/trojan-go
 ) بر پایه پروژه Trojan و با زبان GO نوشته شده است. این پروژه نسبت به نسخه اولیه امکاناتی نظیر پشتیبانی از WebSocket و استفاده از CDN را هم اضافه کرده است.
 

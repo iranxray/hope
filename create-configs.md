@@ -15,9 +15,12 @@
 لطفا به [مقاله ساخت Trojan](https://github.com/iranxray/hope/blob/main/create-trojan.md) رجوع کنید.
 
 
-## ساخت VLESS
+## ساخت VLESS+XTLS
 لطفا به [مقاله ساخت VLESS](https://github.com/iranxray/hope/blob/main/create-vless.md) رجوع کنید.
+
+## ساخت VLESS بدون رمزنگاری XTLS (سریع اما ناایمن)
+لطفا به [مقاله ساخت VLESS بدون رمزنگاری](https://github.com/iranxray/hope/blob/main/create-vless-without-tls.md) رجوع کنید.
 
 
 ## ساخت VMESS
-به دلایل ضعف‌های امنیتی VMESS، ما نحوه ساخت VMESS را آموزش نمی‌دهیم. برای اطلاع از جزییات امنیتی VMESS می‌توانید به [مقاله ما](https://github.com/iranxray/hope#%D9%BE%D8%B1%D9%88%D8%AA%DA%A9%D9%84-vmess-%D8%BA%DB%8C%D8%B1-%D8%A7%DB%8C%D9%85%D9%86-skull) رجوع کنید. 
+به دلایل ضعف‌های امنیتی VMESS، ما نحوه ساخت VMESS را آموزش نمی‌دهیم. برای اطلاع از جزییات امنیتی VMESS می‌توانید به [مقاله ما](https://github.com/iranxray/hope#%D9%BE%D8%B1%D9%88%D8%AA%DA%A9%D9%84-vmess-%D8%BA%DB%8C%D8%B1-%D8%A7%DB%8C%D9%85%D9%86-skull) رجوع کنید. مشکل امنیتی VMESS‌ این هست که GFW به راحتی می‌توانید ترافیک آن را تشخیص دهد و احتمال بسته شدن server شما بالا خواهد رفت.
