@@ -15,7 +15,7 @@
 لطفا به [مقاله ساخت Trojan](https://github.com/iranxray/hope/blob/main/create-trojan.md) رجوع کنید.
 
 
-## ساخت VLESS
+## ساخت VLESS+XTLS
 لطفا به [مقاله ساخت VLESS](https://github.com/iranxray/hope/blob/main/create-vless.md) رجوع کنید.
 
 
