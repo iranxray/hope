@@ -12,7 +12,7 @@
 
 ## خرید از خارج از کشور
 
-۱. شرکت Vultr - مقاله ما در مورد [خرید سرور ارزان از Vultr](https://github.com/iranxray/hope/blob/main/buy-server-vultr.md) را اینجا ببینید.
+۱. شرکت [Vultr](https://www.vultr.com) - مقاله ما در مورد [خرید سرور ارزان از Vultr](https://github.com/iranxray/hope/blob/main/buy-server-vultr.md) را اینجا ببینید.
 
 ۲. شرکت [Hetzner](https://www.hetzner.com)
 
@@ -24,7 +24,7 @@
 
 ۵. پلتفرم [AWS]()
 
-۶. پلتفرم Google Cloud - گزارش‌ّ‌هایی دریافت کردیم که سرور‌های Google Cloud از داخل ایران قابل دسترس نیستند. احتمالا به خاطر تحریم.
+۶. پلتفرم Google Cloud - گزارش‌هایی دریافت کردیم که سرور‌های Google Cloud از داخل ایران قابل دسترس نیستند. احتمالا به خاطر تحریم.
 
 ## خرید از داخل کشور (پرداخت با رمزارز)
 اگر از داخل ایران می‌خواهید server تهیه کنید، گزینه‌های زیر را پیشنهاد می‌کنیم.
