@@ -1,4 +1,4 @@
-# ساخت کانفیگ 
+# ساخت کانفیگ VLESS بدون رمزنگاری XTLS 
 
 پیش از شروع لازم است که دو نکته را با شما در میان بگذاریم. اول اینکه، توصیه ما [استفاده از پروتکل Trojan‌](https://github.com/iranxray/hope/blob/main/create-trojan.md) می‌باشد چرا که کارایی و امنیت بهتری دارد. نکته دوم هم اینکه استفاده از VLESS به VMESS ارجحیت دارد. در مقاله ابتدایی شرح داده‌ایم که [چرا VMESS امن نیست](https://github.com/iranxray/hope#%D9%BE%D8%B1%D9%88%D8%AA%DA%A9%D9%84-vmess-%D8%BA%DB%8C%D8%B1-%D8%A7%DB%8C%D9%85%D9%86-skull).
 
@@ -28,23 +28,9 @@
 ۵. در این مرحله، مشخص می‌کنید که از این کانفیگ در مجموع چه میزان حجم از داده دانلود و آپلود می‌توانیم داشته باشیم. مثلا اگر عدد 20 را مشخص کنیم، آنگاه کاربران این کانفیگ در مجموع به اندازه 20Gb می‌توانند از سرور ما داده دانلود و یا آپلود کنند. به محض اینکه داده مصرفی تمام شود، این کانفیگ به صورت خودکار غیرفعال خواهد شد. اینجا ما عدد ۳۰ را مشخص می‌کنیم.
 
 ![image](https://user-images.githubusercontent.com/118040490/201583716-95b49100-cdb7-4ecf-a46b-7ff5569de491.png)
- 
-۶. در این قسمت نیاز داریم تا از certificate هایی که برای پروتکل TLS ساخته‌ایم استفاده کنیم. اگر این certificate ها را ندارید، لطفا [مستند ساخت TLS Certificate](https://github.com/iranxray/hope/blob/main/create-tsl-certificate.md) را دنبال کرده، دامنه و آدرس فایل‌های کلیدهای رمزنگاری را یادداشت کرده و به اینجا برگردید.
-
-در اینجا، از همان نام domain استفاده کنید که در مرحله ساخت certificate استفاده کردید. مطمئن شوید گزینه certificate file path انتخاب شده باشد. برای public key آدرس مربوط به فایل fullchain.pem را وارد کنید. برای Key آدرس مربوط به فایل privkey.pem را وارد نمایید. روش تهیه این فایل‌ها در [مستند ساخت TLS Certificate](https://github.com/iranxray/hope/blob/main/create-tsl-certificate.md) شرح داده شده بود. 
-
-![image](https://user-images.githubusercontent.com/118040490/201596466-93e8f7cf-b15b-4bfd-a002-5d427efb9a1d.png)
 
 
-
-:star:
-نکته‌ خیلی مهم: اگر از certificate معتبر و domain استفاده می‌‌کنید، مطمئن باشید که نوار آدرس در مرورگر شما به صورت http://IP:port نمی‌باشد. شما باید از آدرس domain استفاده کنید. این موضوع در [مقاله ساخت certificate معتبر](https://github.com/iranxray/hope/blob/main/create-tsl-certificate.md#%DA%AF%D8%A7%D9%85-%D9%87%D9%81%D8%AA%D9%85-1) توضیح داده شده بود.
-
-![image](https://user-images.githubusercontent.com/118040490/203471327-0557d006-325b-435a-856d-c6a5ef1f57aa.png)
-![image](https://user-images.githubusercontent.com/118040490/203471267-5f3bb039-5864-4614-9e12-69768fcf57a4.png)
-
-
-۷. دکمه Add را بزنید و تمام. خواهید که کانفیگ به موفقیت به فهرست اضافه شده و آماده استفاده می‌باشد.
+۶. دکمه Add را بزنید و تمام. خواهید که کانفیگ به موفقیت به فهرست اضافه شده و آماده استفاده می‌باشد.
 
 ![image](https://user-images.githubusercontent.com/118040490/201597880-7654ba1e-792b-4e09-a26a-f28ab4ffaaca.png)
 
