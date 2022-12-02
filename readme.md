@@ -13,6 +13,12 @@
 * گام سوم، [راه اندازی Trojan](https://github.com/iranxray/hope/blob/main/create-trojan.md) و یا [راه اندازی VLESS](https://github.com/iranxray/hope/blob/main/create-vless.md) است. ما توصیه می‌کنیم که از Trojan استفاده کنید.
 * گام چهارم، [نصب کلاینت بر روی اندروید](https://github.com/iranxray/hope/blob/main/install-android.md) و یا [نصب کلاینت بر روی آیفون](https://github.com/iranxray/hope/blob/main/install-iphone.md) و یا [نصب کلاینت بر روی ویندوز](https://github.com/iranxray/hope/blob/main/install-windows.md) می‌باشد. 
 
+# تلگرام
+برای اینکه محیط تعاملی بهتری در کنار هم داشته باشیم، در تلگرام هم حضور داریم.
+
+* کانال تلگرام برای اطلاع‌رسانی‌ها
+* گروه تلگرام برای بحث و تبادل نظر
+
 # آموزش ویدئویی
 
 اگر دنبال کردن ویدئو برای شما راحت‌تر از متن هست، این مجموعه ویدئوی آموزشی دقیقا چیزی است که به آن نیاز دارید و به زبان بسیار ساده مراحل خرید سرور، نصب XRay و راه اندازی Trojan را توضیح می‌دهد. از سازنده ویدئو صمیمانه تشکر می‌کنیم که فیلم‌ها را در اختیار ما قرار دادند. 
