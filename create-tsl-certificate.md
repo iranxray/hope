@@ -54,8 +54,6 @@ sudo apt-get install certbot
 بعد از نصب، دستور زیر را اجرا کنید تا کلیدهای رمزنگاری بر روی سیستم شما ساخته شود. در دستور پایین، از ایمیل فرضی test@email.com و دامنه فرضی iran-free-xray.com استفاده کرده‌ایم. شما باید این مقادیر را تغییر دهید و نام دامنه‌ای که انتخاب می‌کنید باید مطابق با دامنه‌ای باشد که خریداری کرده‌اید. نیازی به وارد کردن ایمیل واقعی نیست. 
 
 
-:star:
-
 ```bash
 sudo certbot certonly --standalone --preferred-challenges http --agree-tos --email test@email.com -d iran-free-xray.com 
 ```
