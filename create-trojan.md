@@ -53,7 +53,9 @@ alt="IMAGE ALT TEXT HERE" width="600" height="320" border="10" /></a>
 <img src="https://user-images.githubusercontent.com/118040490/210035375-61909a8d-8320-41df-b388-258316bf66d4.png" width=50% height=50%>
 
 :star:
-نکته‌ خیلی مهم: اگر از certificate معتبر و domain استفاده می‌‌کنید، مطمئن باشید که نوار آدرس در مرورگر شما به صورت http://IP:port نمی‌باشد. شما باید از آدرس domain استفاده کنید. این موضوع در [مقاله ساخت certificate معتبر](https://github.com/iranxray/hope/blob/main/create-tsl-certificate.md#%DA%AF%D8%A7%D9%85-%D9%87%D9%81%D8%AA%D9%85) توضیح داده شده بود.
+:star:
+:star:
+نکته‌ خیلی مهم: اگر از certificate معتبر و domain استفاده می‌‌کنید، مطمئن باشید که نوار آدرس در مرورگر شما به صورت http://IP:port نمی‌باشد. شما باید از آدرس domain استفاده کنید تا از طریق مرورگر به پنل X-UI‌ دسترسی داشته باشید. این موضوع در [مقاله ساخت certificate معتبر](https://github.com/iranxray/hope/blob/main/create-tsl-certificate.md#%DA%AF%D8%A7%D9%85-%D9%87%D9%81%D8%AA%D9%85) توضیح داده شده بود. اگر این موضوع رعایت نشود، احتمال دارد کانفیگی که می‌سازید به درستی کار نکند.
 
 ![image](https://user-images.githubusercontent.com/118040490/203471327-0557d006-325b-435a-856d-c6a5ef1f57aa.png)
 ![image](https://user-images.githubusercontent.com/118040490/203471267-5f3bb039-5864-4614-9e12-69768fcf57a4.png)
