@@ -22,7 +22,7 @@
 
 ۴. پلتفرم [Microsoft Azure](https://ms.portal.azure.com)
 
-۵. پلتفرم [AWS]:  برای تهیه سرور، می‌توانید از سرویس [LightSail](https://lightsail.aws.amazon.com/ls/webapp/create/instance) استفاده کنید تا سه ماه **رایگان** سرور داشته باشید.
+۵. پلتفرم [AWS]():  برای تهیه سرور، می‌توانید از سرویس [LightSail](https://lightsail.aws.amazon.com/ls/webapp/create/instance) استفاده کنید تا سه ماه **رایگان** سرور داشته باشید.
 
 ۶. پلتفرم Google Cloud - گزارش‌هایی دریافت کردیم که سرور‌های Google Cloud از داخل ایران قابل دسترس نیستند. احتمالا به خاطر تحریم.
 
