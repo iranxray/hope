@@ -16,7 +16,7 @@
 ufw allow ssh;
 ufw allow http;
 ufw allow https;
-ufw enableک
+ufw enable;
 ```
 
 ![image](https://user-images.githubusercontent.com/118040490/202892579-651a5b48-7daa-4196-8af1-3eebbebe85b9.png)
