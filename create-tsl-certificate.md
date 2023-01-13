@@ -40,22 +40,21 @@ sudo -i
 با دستور زیر، بانک اطلاعاتی اپلیکیشن‌های لینوکس را به روز می‌کنیم.
 
 ```bash
-apt update && apt upgrade -y
+apt update -y && apt upgrade -y
 ```
 
 ## گام چهارم
 حالا certbot را نصب می‌کنیم تا بتوانیم به لطف پروژه Let's Encrypt کلیدهای معتبر TLS بسازیم.
 
 ```bash
-sudo apt-get install certbot
+apt-get install certbot
 ```
 
 ## گام پنجم
-بعد از نصب، دستور زیر را اجرا کنید تا کلیدهای رمزنگاری بر روی سیستم شما ساخته شود. در دستور پایین، از ایمیل فرضی test@email.com و دامنه فرضی iran-free-xray.com استفاده کرده‌ایم. شما باید این مقادیر را تغییر دهید و نام دامنه‌ای که انتخاب می‌کنید باید مطابق با دامنه‌ای باشد که خریداری کرده‌اید. نیازی به وارد کردن ایمیل واقعی نیست. 
-
+بعد از نصب، دستور زیر را اجرا کنید تا کلیدهای رمزنگاری بر روی سیستم شما ساخته شود. در دستور پایین، از دامنه فرضی iran-free-xray.com استفاده کرده‌ایم. شما باید این مقادیر را تغییر دهید و نام دامنه‌ای که انتخاب می‌کنید باید مطابق با دامنه‌ای باشد که خریداری کرده‌اید.
 
 ```bash
-sudo certbot certonly --standalone --preferred-challenges http --agree-tos --email test@email.com -d iran-free-xray.com 
+certbot certonly --standalone -d iran-free-xray.com --register-unsafely-without-email --non-interactive --agree-tos
 ```
 
 در حین صدور certificate، سوال زیر در مورد اشتراک گذاری اطلاعات پرسیده می‌شود. می توانید `N` را وارد کنید تا اطلاعات شما محفوظ بماند.
@@ -117,7 +116,7 @@ apt update && apt upgrade -y
 
 
 ```bash
-sudo apt-get install openssl
+apt-get install openssl
 ```
 
 ## گام چهارم
