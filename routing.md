@@ -128,8 +128,9 @@ wget https://github.com/v2fly/domain-list-community/releases/latest/download/dlc
 
 ## گام پنجم
 
-تنظیمات را ذخیره کنید و تمام. تمام دسترسی‌ها به سرور‌های داخلی مسدود شده است.
+تنظیمات را ذخیره کنید. تمام دسترسی‌ها به سرور‌های داخلی بایستی مسدود شده باشند.
 
+![image](https://user-images.githubusercontent.com/118040490/216743759-c8c7be1c-6832-42cd-ad3d-b273af8c2b07.png)
 
 
 
