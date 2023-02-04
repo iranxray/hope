@@ -98,7 +98,7 @@ wget https://github.com/v2fly/domain-list-community/releases/latest/download/dlc
       {
         "ip": [
           "geoip:private",
-          "geoip:ir",
+          "geoip:ir"
         ],
         "outboundTag": "blocked",
         "type": "field"
