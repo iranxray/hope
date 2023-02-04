@@ -59,7 +59,91 @@ alt="IMAGE ALT TEXT HERE" width="250" height="420" border="10" />
 ![image](https://user-images.githubusercontent.com/118040490/216749334-8dc7d6d7-4743-40ff-b8d4-956f338d2841.png)
 
 ## گام دوم
-در ابتدا لازم داریم تا فهرست تمام وب‌سایت‌ها و اپلیکیشن‌های فارسی را بر روی سرور دانلود کرده و در فولدر Xray‌ قرار دهیم. (وقتی که X-UI‌ را نصب می کنید، سیستم XRay در آدرس ‍‍`usr/local/x-ui/bin` نصب خواهد شد.)
+حالا که فهرست دامنه‌ها بارگذاری شده، نوبت به این می‌رسد که مشخصا به Xray بگوییم که وب‌سایت‌های ایرانی را مسدود کند. برای این کار داخل پنل X-UI‌ شوید و به قسمت تنظیمات بروید.
+
+![image](https://user-images.githubusercontent.com/118040490/216742902-538975b9-30f2-449b-80fe-d5bf890a2ae3.png)
+
+## گام سوم
+در این گام، متن زیر را کامل کپی کرده و جایگزین مقدار قبلی در تنظیمات X-UI بکنید. کانفیگ زیر، می‌تواند توسط فهرست `geoip:ir` تا حد بسیار خوبی IP‌های ایران را بر روی سرور مسدود کند. تغییرات را ذخیره کنید.
+
+```json
+{
+  "api": {
+    "services": [
+      "HandlerService",
+      "LoggerService",
+      "StatsService"
+    ],
+    "tag": "api"
+  },
+  "inbounds": [
+    {
+      "listen": "127.0.0.1",
+      "port": 62789,
+      "protocol": "dokodemo-door",
+      "settings": {
+        "address": "127.0.0.1"
+      },
+      "tag": "api"
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    },
+    {
+      "protocol": "blackhole",
+      "settings": {},
+      "tag": "blocked"
+    }
+  ],
+  "policy": {
+    "system": {
+      "statsInboundDownlink": true,
+      "statsInboundUplink": true
+    }
+  },
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "rules": [
+      {
+        "inboundTag": [
+          "api"
+        ],
+        "outboundTag": "api",
+        "type": "field"
+      },
+      {
+        "ip": [
+          "geoip:private",
+          "geoip:ir"
+        ],
+        "outboundTag": "blocked",
+        "type": "field"
+      },
+      {
+        "outboundTag": "blocked",
+        "protocol": [
+          "bittorrent"
+        ],
+        "type": "field"
+      }
+    ]
+  },
+  "stats": {}
+}
+```
+## گام چهارم
+
+تنظیمات را ذخیره کنید. تمام دسترسی‌ها به سرور‌های داخلی بایستی مسدود شده باشند.
+
+![image](https://user-images.githubusercontent.com/118040490/216743759-c8c7be1c-6832-42cd-ad3d-b273af8c2b07.png)
+
+
+
+## گام پنجم (اختیاری)
+دستور قیلی توسط ‍`geop:ir` آدرس‌های IP ایران را بر روی سرور مسدود کرد. برای محکم‌کاری شاید بخواهید در کنار آدرس IPها، آدرس دامنه‌های ایرانی را هم مسدود کنید. برای اینکار، در ابتدا لازم داریم تا فهرست تمام وب‌سایت‌ها و اپلیکیشن‌های فارسی را بر روی سرور دانلود کرده و در فولدر Xray‌ قرار دهیم. (وقتی که X-UI‌ را نصب می کنید، سیستم XRay در آدرس ‍‍`usr/local/x-ui/bin` نصب خواهد شد.)
 
 حالا به سرور SSH‌ بزنید و دستورات زیر را سطر به سطر جداگانه اجرا کنید تا فهرست دامنه‌های داخلی را بر روی سرور دانلود کنیم.
 
@@ -69,13 +153,9 @@ cd /usr/local/x-ui/bin
 wget https://github.com/chiroots/iran-hosted-domains/releases/download/202301210059/iran.dat
 wget https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat
 ```
-## گام سوم
-حالا که فهرست دامنه‌ها بارگذاری شده، نوبت به این می‌رسد که مشخصا به Xray بگوییم که وب‌سایت‌های ایرانی را مسدود کند. برای این کار داخل پنل X-UI‌ شوید و به قسمت تنظیمات بروید.
 
-![image](https://user-images.githubusercontent.com/118040490/216742902-538975b9-30f2-449b-80fe-d5bf890a2ae3.png)
+در آخر هم، باید کانفیگ زیر را در X-UI قرار دهیم تا هم IP و هم دامنه‌های ایرانی بر روی سرور مسدود شوند.
 
-## گام چهارم
-در این گام، متن زیر را کامل کپی کرده و جایگزین مقدار قبلی در تنظیمات X-UI بکنید. کانفیگ زیر IP‌های ایران و فهرست وب‌سایت‌های معروف ایرانی را بر روی سرور مسدود می‌کند.
 
 ```json
 {
@@ -162,12 +242,6 @@ wget https://github.com/v2fly/domain-list-community/releases/latest/download/dlc
   "stats": {}
 }
 ```
-
-## گام پنجم
-
-تنظیمات را ذخیره کنید. تمام دسترسی‌ها به سرور‌های داخلی بایستی مسدود شده باشند.
-
-![image](https://user-images.githubusercontent.com/118040490/216743759-c8c7be1c-6832-42cd-ad3d-b273af8c2b07.png)
 
 
 
