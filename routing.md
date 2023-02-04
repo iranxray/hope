@@ -150,7 +150,7 @@ alt="IMAGE ALT TEXT HERE" width="250" height="420" border="10" />
 ```bash
 sudo -i
 cd /usr/local/x-ui/bin
-wget https://github.com/chiroots/iran-hosted-domains/releases/download/202301210059/iran.dat
+wget https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/iran.dat
 wget https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat
 ```
 
@@ -246,7 +246,7 @@ wget https://github.com/v2fly/domain-list-community/releases/latest/download/dlc
 
 
 # فهرست سایت‌های داخلی را از کجا گرفته‌ایم؟
-تا جایی که ما متوجه شدیم، دو مجموعه به طور جداگانه در حال تهیه فهرست وب‌سایت‌های داخلی هستند. یکی به زحمت بچه‌های [iran-hosted-domain](https://github.com/chiroots/iran-hosted-domains) تهیه شده و دیگری توسط [جامعه بچه‌های V2Ray‌](https://github.com/v2fly/domain-list-community) تکمیل می‌شود. در این مستند، ما از فهرستی که این دوستان تهیه کرده‌اند، استفاده کردیم. البته همانطور که می‌بینید، یک سری از دامنه‌ها را هم به طور دستی مشخص کرده‌ایم.
+تا جایی که ما متوجه شدیم، دو مجموعه به طور جداگانه در حال تهیه فهرست وب‌سایت‌های داخلی هستند. یکی به زحمت بچه‌های [iran-hosted-domain](https://github.com/bootmortis/iran-hosted-domains) تهیه شده و دیگری توسط [جامعه بچه‌های V2Ray‌](https://github.com/v2fly/domain-list-community) تکمیل می‌شود. در این مستند، ما از فهرستی که این دوستان تهیه کرده‌اند، استفاده کردیم. البته همانطور که می‌بینید، یک سری از دامنه‌ها را هم به طور دستی مشخص کرده‌ایم.
 
 
 
