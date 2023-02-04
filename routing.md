@@ -17,6 +17,12 @@
 # مکانیزم Routing
 این مکانیزم که در Xray‌ تعبیه شده به شما اجازه می‌دهد که مشخص کنید چه ترافیکی می‌تواند از پروکسی سرور شما عبور کند. مثلا می‌توانید مشخص کنید تمام دامنه‌های ir مسدود شوند یا می‌توانید بگویید که یک دامنه خاص مثه digikala.com‌ نباید از سرور شما قابل دسترس باشد. در نتیجه اعمال این تغییرات، کاربران پروکسی سرور شما نمی‌توانند از وب‌سایت‌های داخلی استفاده کنند. مکانیزم routing در [مستندات رسمی XRay](https://xtls.github.io/config/routing.html#routingobject) توضیح داده شده است.
 
+### مزایای استفاده از Routing
+* کاهش احتمال شناسایی سرور
+* کاهش ترافیک سرور و در نتیجه بالا رفتن کیفیت
+* کاهش هزینه‌های سرور (اگر بابت ترافیک هزینه جداگانه پرداخت می‌کنید.)
+
+
 ## گام اول
 برای اعمال Routing ما فرض می‌کنیم که شما X-UI را بر روی سرور خود [نصب کرده‌اید](https://github.com/iranxray/hope/blob/main/install-xui.md) و از آخرین نسخه Xray استفاده می‌کنید. برای به روز رسانی نسخه Xrayِ، کافی است در داشبورد X-UI بر روی version کلیک کنید و در پنجره‌ای که باز‌ می‌شود آخرین نسخه را انتخاب کنید.
 
@@ -80,6 +86,7 @@ wget https://github.com/v2fly/domain-list-community/releases/latest/download/dlc
     }
   },
   "routing": {
+    "domainStrategy": "IPIfNonMatch",
     "rules": [
       {
         "inboundTag": [
@@ -90,7 +97,8 @@ wget https://github.com/v2fly/domain-list-community/releases/latest/download/dlc
       },
       {
         "ip": [
-          "geoip:private"
+          "geoip:private",
+          "geoip:ir",
         ],
         "outboundTag": "blocked",
         "type": "field"
@@ -107,8 +115,6 @@ wget https://github.com/v2fly/domain-list-community/releases/latest/download/dlc
           "domain": [
             "regexp:.*\\.ir$",
             "ext:iran.dat:ir",
-            "ext:iran.dat:other",
-            "geosite:category-porn",
             "geosite:category-ir-gov",
             "geosite:category-ir-news",
             "geosite:category-ir-bank",
@@ -117,8 +123,7 @@ wget https://github.com/v2fly/domain-list-community/releases/latest/download/dlc
             "geosite:category-ir-shopping",
             "geosite:category-ir-insurance",
             "geosite:category-ir-scholar",
-            "geosite:category-ir-media",
-            ,"snapp", "digikala","tapsi", "blogfa", "bank", "sb24.com", "sheypoor.com", "tebyan.net", "beytoote.com", "telewebion.com", "Film2movie.ws", "Setare.com", "Filimo.com", "Torob.com", "Tgju.org", "Sarzamindownload.com", "downloadha.com", "P30download.com", "Sanjesh.org"
+            "ext:iran.dat:other","snapp", "digikala","tapsi", "blogfa", "bank", "sb24.com", "sheypoor.com", "tebyan.net", "beytoote.com", "telewebion.com", "Film2movie.ws", "Setare.com", "Filimo.com", "Torob.com", "Tgju.org", "Sarzamindownload.com", "downloadha.com", "P30download.com", "Sanjesh.org"
           ],
         "type": "field"
       }
