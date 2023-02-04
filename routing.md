@@ -225,6 +225,7 @@ wget https://github.com/v2fly/domain-list-community/releases/latest/download/dlc
           "domain": [
             "regexp:.*\\.ir$",
             "ext:iran.dat:ir",
+            "ext:iran.dat:other",
             "geosite:category-ir-gov",
             "geosite:category-ir-news",
             "geosite:category-ir-bank",
@@ -233,7 +234,7 @@ wget https://github.com/v2fly/domain-list-community/releases/latest/download/dlc
             "geosite:category-ir-shopping",
             "geosite:category-ir-insurance",
             "geosite:category-ir-scholar",
-            "ext:iran.dat:other","snapp", "digikala","tapsi", "blogfa", "bank", "sb24.com", "sheypoor.com", "tebyan.net", "beytoote.com", "telewebion.com", "Film2movie.ws", "Setare.com", "Filimo.com", "Torob.com", "Tgju.org", "Sarzamindownload.com", "downloadha.com", "P30download.com", "Sanjesh.org"
+            "snapp", "digikala","tapsi", "blogfa", "bank", "sb24.com", "sheypoor.com", "tebyan.net", "beytoote.com", "telewebion.com", "Film2movie.ws", "Setare.com", "Filimo.com", "Torob.com", "Tgju.org", "Sarzamindownload.com", "downloadha.com", "P30download.com", "Sanjesh.org"
           ],
         "type": "field"
       }
