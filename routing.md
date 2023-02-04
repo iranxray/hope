@@ -26,7 +26,7 @@
 ## گام اول
 برای اعمال Routing ما فرض می‌کنیم که شما X-UI را بر روی سرور خود [نصب کرده‌اید](https://github.com/iranxray/hope/blob/main/install-xui.md) و از آخرین نسخه Xray استفاده می‌کنید. برای به روز رسانی نسخه Xrayِ، کافی است در داشبورد X-UI بر روی version کلیک کنید و در پنجره‌ای که باز‌ می‌شود آخرین نسخه را انتخاب کنید.
 
-![image](https://user-images.githubusercontent.com/118040490/216742295-587863ef-59a4-4f63-94e6-92f5ea9fa7bd.png)
+![image](https://user-images.githubusercontent.com/118040490/216749334-8dc7d6d7-4743-40ff-b8d4-956f338d2841.png)
 
 ## گام دوم
 در ابتدا لازم داریم تا فهرست تمام وب‌سایت‌ها و اپلیکیشن‌های فارسی را بر روی سرور دانلود کرده و در فولدر Xray‌ قرار دهیم. (وقتی که X-UI‌ را نصب می کنید، سیستم XRay در آدرس ‍‍`usr/local/x-ui/bin` نصب خواهد شد.)
@@ -45,7 +45,7 @@ wget https://github.com/v2fly/domain-list-community/releases/latest/download/dlc
 ![image](https://user-images.githubusercontent.com/118040490/216742902-538975b9-30f2-449b-80fe-d5bf890a2ae3.png)
 
 ## گام چهارم
-در این گام، متن زیر را کامل کپی کرده و جایگزین مقدار قبلی در تنظیمات X-UI بکنید.
+در این گام، متن زیر را کامل کپی کرده و جایگزین مقدار قبلی در تنظیمات X-UI بکنید. کانفیگ زیر IP‌های ایران و فهرست وب‌سایت‌های معروف ایرانی را بر روی سرور مسدود می‌کند.
 
 ```json
 {
