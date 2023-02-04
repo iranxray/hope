@@ -41,7 +41,7 @@ alt="IMAGE ALT TEXT HERE" width="250" height="420" border="10" />
 
 
 ## گام سوم
-به قسمت Direct Url or IP می‌رویم و مقدار `geoip:ir` را وارد می‌کنیم. این کار باعث خواهد شد که ترافیک داخلی ایران از پروکسی سرور عبور نکند.
+به قسمت Direct Url or IP می‌رویم و مقدار `geoip:ir` را وارد می‌کنیم. این کار باعث خواهد شد که ترافیک داخلی ایران از پروکسی سرور عبور نکند. عبارت `geoip:ir` مخفف مجموعه‌ای است که تمامی IP‌های ایران را تا حد خوبی پوشش می‌دهد.
 
 <img src="https://user-images.githubusercontent.com/118040490/216750327-45e75c33-c348-423e-93c1-e08602051795.png" 
 alt="IMAGE ALT TEXT HERE" width="250" height="420" border="10" />
