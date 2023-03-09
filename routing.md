@@ -68,6 +68,10 @@ alt="IMAGE ALT TEXT HERE" width="250" height="420" border="10" />
 
 ```json
 {
+  "log": {
+    "loglevel": "warning",
+    "access": "./access.log"
+  },
   "api": {
     "services": [
       "HandlerService",
@@ -159,6 +163,10 @@ wget https://github.com/v2fly/domain-list-community/releases/latest/download/dlc
 
 ```json
 {
+  "log": {
+    "loglevel": "warning",
+    "access": "./access.log"
+  },
   "api": {
     "services": [
       "HandlerService",
