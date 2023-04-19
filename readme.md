@@ -10,7 +10,7 @@
 
 * گام اول [خرید یک server‌ لینوکسی](https://github.com/iranxray/hope/blob/main/buy-server.md) است. در مقاله [خرید از Vultr](https://github.com/iranxray/hope/blob/main/buy-server-vultr.md) توضیح داده‌ایم که چطور می‌توانیم با هزینه کمتر از ده دلار در ماه سروری مناسب را خریداری کنیم. 
 *  گام دوم [نصب Xray](https://github.com/iranxray/hope/blob/main/install-xui.md) بر روی یک سیستم لینوکسی است.
-* گام سوم، [راه اندازی Trojan](https://github.com/iranxray/hope/blob/main/create-trojan.md) و یا [راه اندازی VLESS](https://github.com/iranxray/hope/blob/main/create-vless.md) است. ما توصیه می‌کنیم که از Trojan استفاده کنید.
+* گام سوم، [راه اندازی  Trojan](https://github.com/iranxray/hope/blob/main/create-trojan.md) و یا [راه اندازی VLESS](https://github.com/iranxray/hope/blob/main/create-vless.md) است. ما توصیه می‌کنیم که از Trojan استفاده کنید.
 * گام چهارم، [نصب کلاینت بر روی اندروید](https://github.com/iranxray/hope/blob/main/install-android.md) و یا [نصب کلاینت بر روی آیفون](https://github.com/iranxray/hope/blob/main/install-iphone.md) و یا [نصب کلاینت بر روی ویندوز](https://github.com/iranxray/hope/blob/main/install-windows.md) می‌باشد. 
 
 # پرسش و پاسخ‌های متدول
