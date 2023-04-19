@@ -38,7 +38,7 @@ wget https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install_en.sh
 ```bash
 bash install.sh
 ```
-# گام چهارم
+## گام چهارم
 
 ۱. در جواب سوال `are you continue,if you type n will skip this at this time[y/n]` (آیا مایل به ادامه هستید؟) دکمه y را بزنید.
 
