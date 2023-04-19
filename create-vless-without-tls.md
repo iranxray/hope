@@ -1,5 +1,7 @@
 # ساخت کانفیگ VLESS بدون رمزنگاری XTLS 
 
+⚠️ این روش منسوخ شده است. لطفا از [پروتکل Reality](https://github.com/iranxray/hope/blob/main/create-vision-reality.md) استفاده کنید.
+
 پیش از شروع لازم است که دو نکته را با شما در میان بگذاریم. اول اینکه، توصیه ما [استفاده از پروتکل Trojan‌](https://github.com/iranxray/hope/blob/main/create-trojan.md) می‌باشد چرا که کارایی و امنیت بهتری دارد. نکته دوم هم اینکه استفاده از VLESS به VMESS ارجحیت دارد. در مقاله ابتدایی شرح داده‌ایم که [چرا VMESS امن نیست](https://github.com/iranxray/hope#%D9%BE%D8%B1%D9%88%D8%AA%DA%A9%D9%84-vmess-%D8%BA%DB%8C%D8%B1-%D8%A7%DB%8C%D9%85%D9%86-skull).
 
 در صورت تمایل، برای یادگیری در مورد جزییات فنی این پروتکل به [مطلبی که در مورد VLESS](https://github.com/iranxray/hope#%D9%BE%D8%B1%D9%88%D8%AA%DA%A9%D9%84-vless-%D8%A7%DB%8C%D9%85%D9%86-sunglasses) تهیه کرده‌ایم رجوع کنید.
