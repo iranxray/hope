@@ -41,7 +41,7 @@ wget https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install_en.sh
 
 
 ```bash
-bash install.sh
+bash install_en.sh
 ```
 ## گام چهارم
 
