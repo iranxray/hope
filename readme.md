@@ -10,7 +10,7 @@
 
 * گام اول [خرید یک server‌ لینوکسی](https://github.com/iranxray/hope/blob/main/buy-server.md) است. در مقاله [خرید از Vultr](https://github.com/iranxray/hope/blob/main/buy-server-vultr.md) توضیح داده‌ایم که چطور می‌توانیم با هزینه کمتر از ده دلار در ماه سروری مناسب را خریداری کنیم. 
 *  گام دوم [نصب Xray](https://github.com/iranxray/hope/blob/main/install-xui.md) بر روی یک سیستم لینوکسی است.
-* گام سوم، [راه اندازی  Trojan](https://github.com/iranxray/hope/blob/main/create-trojan.md) و یا [راه اندازی VLESS](https://github.com/iranxray/hope/blob/main/create-vless.md) است. ما توصیه می‌کنیم که از Trojan استفاده کنید.
+* گام سوم، [راه اندازی کانفیگ Reality](https://github.com/iranxray/hope/blob/main/create-vision-reality.md) است.
 * گام چهارم، [نصب کلاینت بر روی اندروید](https://github.com/iranxray/hope/blob/main/install-android.md) و یا [نصب کلاینت بر روی آیفون](https://github.com/iranxray/hope/blob/main/install-iphone.md) و یا [نصب کلاینت بر روی ویندوز](https://github.com/iranxray/hope/blob/main/install-windows.md) می‌باشد. 
 
 # پرسش و پاسخ‌های متدول
@@ -26,33 +26,7 @@
 
 * [کانال تلگرام](https://t.me/irxray) برای اطلاع‌رسانی‌های گروه امید.
 * [گروه تلگرام](https://t.me/irxraycommunity) برای بحث و تبادل تجربه در زمینه عبور از فیلترینگ.
-* [اکانت توییتر](https://twitter.com/team_omid) گروه امید برای انتشار به روز رسانی‌ها و تبادل نظر در فضای توییتر
-
-# آموزش ویدئویی
-
-اگر دنبال کردن ویدئو برای شما راحت‌تر از متن هست، این مجموعه ویدئوی آموزشی دقیقا چیزی است که به آن نیاز دارید و به زبان بسیار ساده مراحل خرید سرور، نصب XRay و راه اندازی Trojan را توضیح می‌دهد. از سازنده ویدئو صمیمانه تشکر می‌کنیم که فیلم‌ها را در اختیار ما قرار دادند. 
-
-## ویدئو اول - تهیه Server
-
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=E2rv9WcIWR4
-" target="_blank"><img src="https://user-images.githubusercontent.com/118040490/203487223-397af049-3c4a-44f9-9d6b-89259ad0d871.png" 
-alt="IMAGE ALT TEXT HERE" width="600" height="320" border="10" /></a>
-
-## ویدئو دوم - نصب XRay
-
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=dx53eIC9a4M
-" target="_blank"><img src="https://user-images.githubusercontent.com/118040490/203488392-cdb138cf-715b-4a3c-8bc2-8a6b9bae6cce.png" 
-alt="IMAGE ALT TEXT HERE" width="600" height="320" border="10" /></a>
-
-## ویدئو سوم - راه‌اندازی Trojan‌ و استفاده بر روی اندروید
-
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=bypxnL7ycuc
-" target="_blank"><img src="https://user-images.githubusercontent.com/118040490/203488623-3dac76fd-0dc7-4fa1-af87-009eb03d45eb.png" 
-alt="IMAGE ALT TEXT HERE" width="600" height="320" border="10" /></a>
-
+* [اکانت توییتر](https://twitter.com/team_omid) گروه امید برای انتشار به روز رسانی‌ها و تبادل نظر در فضای توییتر.
 
 # دیواره آتش فیلترینگ
 سامانه فیلترینگی که در ایران استفاده می‌شود، در واقع یک سیستم چینی است موسوم به [Great Firewall یا GFW](https://en.wikipedia.org/wiki/Great_Firewall). نام این هیولا، اشاره به دیوار باستانی چین دارد که بر دور کشور کشیده شد تا از دشمنانش مصون بماند. این سامانه در سال ۱۹۹۸ کلید خورد و ساخت فاز اولیه تا سال ۲۰۰۶ به طول انجامید. به لطف سرمایه‌گذاری عظیم حزب کمونیست چین، سامانه GFW هر سال به روش‌های پیچیده‌تری برای فیلترینگ هوشمند تجهیز می‌شود و می‌تواند با جزییات بسیار بالا ترافیک عظیم جمعیت چند میلیادری چین را در لحظه مانیتور کرده، ترافیک مشکوک را ببندد و یا به مقامات به صورت خودکار گزارش ارسال کند. این دیواره آتش در واقع اژدهای هفت‌سری است که در دروازه‌های اینرنت ما هم ایستاده و از چرخش آزاد داده‌ها جلوگیری می‌کند. 
