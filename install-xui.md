@@ -21,14 +21,7 @@
 
 مجددا تاکید کنیم که از اینجا به بعد پیش‌فرض ما این هست که شما [سیستم لینوکسی](https://github.com/iranxray/hope/blob/main/buy-server.md) خود را تهیه کرده، آدرس IP سرور خود را می‌دانید و [موفق شدید به آن SSH](https://github.com/iranxray/hope/blob/main/install-ssh-windows.md) کنید و الان صفحه cmd را باز دارید.
 
-
 ## گام اول
-در صفحه cmd، ابتدا با دستور زیر، سطح اختیارات را بالا می‌بریم.
-
-```bash
-sudo -i
-```
-## گام دوم
 با دستور زیر، فایل نصب X-UI را دانلود می‌کنیم.
 
 
@@ -36,14 +29,14 @@ sudo -i
 wget https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install_en.sh
 ```
 
-## گام سوم
+## گام دوم
 با دستور زیر، فایل نصب را اجرا می‌کنیم.
 
 
 ```bash
 bash install_en.sh
 ```
-## گام چهارم
+## گام سوم
 
 ۱. در جواب سوال `are you continue,if you type n will skip this at this time[y/n]` (آیا مایل به ادامه هستید؟) دکمه y را بزنید.
 
@@ -56,11 +49,11 @@ bash install_en.sh
 با اجرای دستور `x-ui status`  نیز می‌توانید از در حال اجرا بودن X-UI مطمئن شوید.
 
 
-## گام پنجم
+## گام چهارم
 
 در مرحله قبل شما یک port را انتخاب کردید اما به طور پیش‌فرض همه port ها بر روی server شما بسته هستند. لازم هست با مراجعه به [مقاله باز کردن port بر روی server](https://github.com/iranxray/hope/blob/main/open-server-port.md) رجوع کنید تا port ایی که در گام چهارم انتخاب کردید را باز کنید.
 
-## گام هفتم
+## گام پنجم
 
 در صورتی که همه چی موفقیت آمیز پیش‌ رفته باشد، حالا باید بتوانیم که Kafka را بر روی مرورگر Chrome و Edge باز کنیم. 
 .
@@ -82,7 +75,15 @@ http://24.30.41.50:34567
 بعد از ورود موفق وارد صفحه داشبورد اصلی خواهید شد.
 ![image](https://user-images.githubusercontent.com/118040490/232973719-4f41cb11-32e1-4fe5-9218-b23af3ef795b.png)
 
+## گام نهم
 
+باید نسخه XRay را به 1.8 و یا بالاتر ارتقا دهیم. از صفحه داشبورد می‌توانیم برای ارتقا XRay مطابق تصاویر زیر عمل کنیم.
+
+![image](https://user-images.githubusercontent.com/118040490/233157715-c891ceb2-7dd6-4dd7-b93a-596c83309e86.png)
+
+در پنجره‌ای که باز می‌شود، آخرین نسخه را انتخاب کنید.
+
+![image](https://user-images.githubusercontent.com/118040490/233157846-52f3c337-90c4-439a-a8e5-9f9d5a910065.png)
 
 ## گام نهم
 
