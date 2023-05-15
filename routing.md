@@ -101,13 +101,8 @@ alt="IMAGE ALT TEXT HERE" width="250" height="420" border="10" />
   "policy": {
     "levels": {
       "0": {
-        "handshake": 10,
-        "connIdle": 100,
-        "uplinkOnly": 2,
-        "downlinkOnly": 3,
         "statsUserUplink": true,
-        "statsUserDownlink": true,
-        "bufferSize": 10240
+        "statsUserDownlink": true
       }
     },
     "system": {
