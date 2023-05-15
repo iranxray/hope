@@ -198,13 +198,8 @@ wget https://github.com/v2fly/domain-list-community/releases/latest/download/dlc
   "policy": {
     "levels": {
       "0": {
-        "handshake": 10,
-        "connIdle": 100,
-        "uplinkOnly": 2,
-        "downlinkOnly": 3,
         "statsUserUplink": true,
-        "statsUserDownlink": true,
-        "bufferSize": 10240
+        "statsUserDownlink": true
       }
     },
     "system": {
