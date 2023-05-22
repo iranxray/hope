@@ -99,6 +99,12 @@ alt="IMAGE ALT TEXT HERE" width="250" height="420" border="10" />
     }
   ],
   "policy": {
+    "levels": {
+      "0": {
+        "statsUserUplink": true,
+        "statsUserDownlink": true
+      }
+    },
     "system": {
       "statsInboundDownlink": true,
       "statsInboundUplink": true
@@ -190,6 +196,12 @@ wget https://github.com/v2fly/domain-list-community/releases/latest/download/dlc
     }
   ],
   "policy": {
+    "levels": {
+      "0": {
+        "statsUserUplink": true,
+        "statsUserDownlink": true
+      }
+    },
     "system": {
       "statsInboundDownlink": true,
       "statsInboundUplink": true
