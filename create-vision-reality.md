@@ -19,7 +19,7 @@
 
 ## گام اول
 
-پیش‌فرض ما این است که شما [پنل Kafa](https://github.com/iranxray/hope/blob/main/install-xui.md) را نصب کرده‌اید. حالا در صفحه Inbounds، بر روی دکمه Add Inbound کلیک کنید.
+پیش‌فرض ما این است که شما [پنل Kafka](https://github.com/iranxray/hope/blob/main/install-xui.md) را نصب کرده‌اید. حالا در صفحه Inbounds، بر روی دکمه Add Inbound کلیک کنید.
 
 ![image](https://user-images.githubusercontent.com/118040490/232978405-ce620e1c-4953-407f-8347-704184e093ef.png)
 
@@ -54,7 +54,7 @@
 
 ## گام چهارم
 
-دکمه Add را بزنید و تمام. خواهید که کانفیگ به موفقیت به فهرست اضافه شده و آماده استفاده می‌باشد.
+دکمه Add را بزنید و تمام. خواهید دید که کانفیگ به موفقیت به فهرست اضافه شده و آماده استفاده می‌باشد.
 
 ![image](https://user-images.githubusercontent.com/118040490/232980581-d7c0633f-2768-431f-892b-593f0607db38.png)
 
