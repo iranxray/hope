@@ -12,7 +12,7 @@
 
 **پرسش: فرمول جادویی نیست ولی حالا پیشنهاد شما چیه؟**
 
-جواب: فرمول طلایی نیست. اما یه سری چیز‌ها انگار شانس بیشتری برای کار کردن دارن. سعی کنید کلن دو تا کانفیگ بسازید. یکی Trojan روی پورت ۴۴۳ و یکی VLESS روی پورت ۸۰. هر دو هم با XTLS و با certificate معتبر. برای ساخت certificate معتبر به [مستند ما](https://github.com/iranxray/hope/blob/main/create-tsl-certificate.md) رجوع کنید. شاید امتحان کردن [استفاده از CDN](https://github.com/iranxray/hope/blob/main/cloudflare-cdn.md) هم کار راه انداز باشد.
+جواب: فرمول طلایی نیست. اما یه سری چیز‌ها انگار شانس بیشتری برای کار کردن دارن. سعی کنید کلن دو تا کانفیگ بسازید. یکی Trojan روی پورت ۴۴۳ و یکی VLESS روی پورت ۸۰. هر دو هم با XTLS و با certificate معتبر. برای ساخت certificate معتبر به [مستند ما](https://github.com/iranxray/hope/blob/main/create-tls-certificate.md) رجوع کنید. شاید امتحان کردن [استفاده از CDN](https://github.com/iranxray/hope/blob/main/cloudflare-cdn.md) هم کار راه انداز باشد.
 
 **پرسش: مطابق راهنمای امید X-UI رو راه‌اندازی کردم، می‌تونم یک کانفیگ رو به چند نفر بدم؟**
 
@@ -34,7 +34,7 @@
 
 **پرسش: آیا لازمه که domain بخرم؟ چطور می‌تونم domain بخرم؟**
 
-جواب: آره. باید هم بابتش هزینه کنید. سالی ده دلار تقریبا. دامنه‌های‌ رایگان freenom برای عبور از فیلترینگ جواب نمیده. خرید دامنه فرایند بسیار ساده‌ای دارد. شرکت‌هایی مثل [GoDaddy](https://www.godaddy.com/)، [Namecheap](https://www.namecheap.com/) و یا [CloudFlare](https://www.cloudflare.com/products/registrar/) به شما کمک می‌کنند یک دامنه شخصی تهیه کنید. در خرید دامنه توجه کنید که استفاده از پسوند‌های معروف‌تر مثل com یا net و یا org احتمال فیلتر شدن دامنه را کاهش می‌دهد. پبشنهاد ما خرید از CloudFlare هست که به شما امکان استفاده از یه سری تکنیک‌های پیشرفته‌تر هم میده.  علت اینکه باید domain تهیه کنید این هست که برای رمزنگاری TLS و یا XTLS نیاز به domain دارید وگرنه فیلترچی سریع رد‌تون رو می‌زنه. با داشتن domain [جعبه ابزار امید](https://github.com/iranxray/hope-toolbox) به طور خودکار کارهای لازم برای رمزنگاری رو انجام میده. ما در [مستند تهیه certificate](https://github.com/iranxray/hope/blob/main/create-tsl-certificate.md) هم بیشتر این موضوع رو شرح دادیم. 
+جواب: آره. باید هم بابتش هزینه کنید. سالی ده دلار تقریبا. دامنه‌های‌ رایگان freenom برای عبور از فیلترینگ جواب نمیده. خرید دامنه فرایند بسیار ساده‌ای دارد. شرکت‌هایی مثل [GoDaddy](https://www.godaddy.com/)، [Namecheap](https://www.namecheap.com/) و یا [CloudFlare](https://www.cloudflare.com/products/registrar/) به شما کمک می‌کنند یک دامنه شخصی تهیه کنید. در خرید دامنه توجه کنید که استفاده از پسوند‌های معروف‌تر مثل com یا net و یا org احتمال فیلتر شدن دامنه را کاهش می‌دهد. پبشنهاد ما خرید از CloudFlare هست که به شما امکان استفاده از یه سری تکنیک‌های پیشرفته‌تر هم میده.  علت اینکه باید domain تهیه کنید این هست که برای رمزنگاری TLS و یا XTLS نیاز به domain دارید وگرنه فیلترچی سریع رد‌تون رو می‌زنه. با داشتن domain [جعبه ابزار امید](https://github.com/iranxray/hope-toolbox) به طور خودکار کارهای لازم برای رمزنگاری رو انجام میده. ما در [مستند تهیه certificate](https://github.com/iranxray/hope/blob/main/create-tls-certificate.md) هم بیشتر این موضوع رو شرح دادیم. 
 
 
 **پرسش: شنیدیم استفاده از CDN می‌تونه به عبور از فیلترینگ کمک کنه؟**

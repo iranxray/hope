@@ -50,7 +50,7 @@
 
 می‌توانید از این گام عبور کنید. این گام فقط وقتی ضروری هست که بخواهید از TLS استفاده کنید.
 
-لازم هست برای sub-domain جدیدی که ایجاد کردیم یک certificate معتبر بسازیم. مثلا در تصویر قبلی دامنه ما iranxray.com بود و زیر-دامنه‌ای که ساختیم cdn.iranxray.com می‌باشد. پس در این مثال باید برای cdn.iranxray.com یک certificate معتبر ایجاد کنیم. در [مستند تهیه certificate](https://github.com/iranxray/hope/blob/main/create-tsl-certificate.md) گام‌های لازم را توضیح داده‌ایم.
+لازم هست برای sub-domain جدیدی که ایجاد کردیم یک certificate معتبر بسازیم. مثلا در تصویر قبلی دامنه ما iranxray.com بود و زیر-دامنه‌ای که ساختیم cdn.iranxray.com می‌باشد. پس در این مثال باید برای cdn.iranxray.com یک certificate معتبر ایجاد کنیم. در [مستند تهیه certificate](https://github.com/iranxray/hope/blob/main/create-tls-certificate.md) گام‌های لازم را توضیح داده‌ایم.
 
 ## گام چهارم
 
