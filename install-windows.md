@@ -54,6 +54,14 @@
 
 ![image](https://github.com/iranxray/hope/assets/118040490/2544b3fb-aef1-48ce-a849-d0632b8e8fb5)
 
+## گام هشتم
+برای جلوگیری از شناسایی و IP Leak باید یک تغییر دیگر هم بدهیم. مطابق تصاویر زیر به صفحه DNS بروید و مقدار `1.1.1.1,8.8.8.8` را وارد کنید.
+
+![image](https://github.com/iranxray/hope/assets/118040490/79075369-4c3a-4a72-a833-5f59694d7b6f)
+![image](https://github.com/iranxray/hope/assets/118040490/f2ba3165-29d8-4e3f-a793-6af7f3e0d3ab)
+
+
+
 تمام. حالا شما باید به اینترنت آزاد دسترسی داشته باشید.
 
 
