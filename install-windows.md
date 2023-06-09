@@ -2,6 +2,10 @@
 
 بر روی ویندوز از یک نرم‌افزار open source به نام [V2RayN](https://github.com/2dust/v2rayN) استفاده می‌کنیم.
 
+## پیش‌نیاز
+
+برای نصب V2RayN، در ابتدا نیاز خواهید داشت تا [برنامه دات‌نت](https://download.visualstudio.microsoft.com/download/pr/513d13b7-b456-45af-828b-b7b7981ff462/edf44a743b78f8b54a2cec97ce888346/windowsdesktop-runtime-6.0.15-win-x64.exe) را به عنوان پیش‌نیاز نصب کنید. در غیر این صورت قادر نخواهید بود که V2RayN را اجرا کنید.
+
 ## گام اول
 
 در ابتدا باید برنامه V2RayN را دانلود کنیم. بر روی این [لینک](https://github.com/2dust/v2rayN/releases/tag/6.23) کلیک کنید و فایل ‍`v2rayN-With-Core.zip` را دانلود کنید. 
